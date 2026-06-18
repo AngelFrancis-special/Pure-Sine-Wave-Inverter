@@ -14,46 +14,22 @@ The objective of this project was to design and validate a pure sine wave invert
 
 ## System Architecture
 
-12V DC Input
-
-↓
-
-SPWM Generator (Arduino)
-
-↓
-
-PI Feedback Controller
-
-↓
-
-Gate Driver Stage (IR2112)
-
-↓
-
-MOSFET H-Bridge
-
-↓
-
-12V–220V Transformer
-
-↓
-
-Output Filter
-
-↓
-
-220VAC Output (50Hz)
+![System Architecture](inverter_architecture.png)
 
 ---
 
 ## Hardware Components
 
-* Arduino Microcontroller
-* IR2112 Gate Driver
-* MOSFET H-Bridge
-* 12V–220V Transformer
-* Output Filter Network
-* Voltage Feedback Circuit
+- Arduino Microcontroller
+- IR2112 Gate Driver
+- 74LS08 Logic Gate IC
+- IRF3205 Power MOSFETs
+- H-Bridge Power Stage
+- 12V–220V Transformer (Power Output Stage)
+- 220V–12V Step-Down Feedback Transformer
+- Output Filter Network
+- Voltage Feedback Circuit
+- Oscilloscope Measurement Interface
 
 ---
 
