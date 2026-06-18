@@ -5,7 +5,15 @@ A closed-loop pure sine wave inverter designed to convert a 12V DC source into a
 The project explores inverter control techniques, waveform synthesis, output regulation, and power electronics design for low-distortion AC power generation.
 
 ---
+## Demonstration
 
+Hardware Demonstration:
+https://www.youtube.com/watch?v=baxVjNvxOzI
+
+Simulation Demonstration:
+https://www.youtube.com/watch?v=YOkIT0XrTNo
+
+---
 ## Objective
 
 The objective of this project was to design and validate a pure sine wave inverter capable of generating a stable 220VAC output from a 12V DC source while maintaining waveform quality and output voltage regulation through closed-loop control.
@@ -63,16 +71,6 @@ Simulation was performed to validate inverter operation, switching behavior, and
 ## Hardware Validation
 
 Oscilloscope measurements were used to verify waveform generation and evaluate inverter performance during testing.
-
----
-
-## Demonstration
-
-Hardware Demonstration:
-https://www.youtube.com/watch?v=baxVjNvxOzI
-
-Simulation Demonstration:
-https://www.youtube.com/watch?v=YOkIT0XrTNo
 
 ---
 
